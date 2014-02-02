@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication7.FXMLDocumentController">
+  <children>
+    <TextField id="TextBOx" fx:id="TextBox" layoutX="60.0" layoutY="14.0" prefWidth="200.0" />
+    <Button fx:id="num0" layoutX="15.0" layoutY="47.0" mnemonicParsing="false" onAction="#insertAction" onMouseClicked="#insertAction" text="0"  />
+    <Button fx:id="num7" layoutX="87.0" layoutY="110.0" mnemonicParsing="false" onAction="#insertAction" text="7" />
+    <Button fx:id="num6" layoutX="87.0" layoutY="79.0" mnemonicParsing="false" onAction="#insertAction" text="6" />
+    <Button fx:id="num5" layoutX="87.0" layoutY="46.0" mnemonicParsing="false" onAction="#insertAction" text="5" />
+    <Button fx:id="num4" layoutX="157.0" layoutY="140.0" mnemonicParsing="false" onAction="#insertAction" text="4" />
+    <Button fx:id="num3" layoutX="14.0" layoutY="136.0" mnemonicParsing="false" onAction="#insertAction" text="3" />
+    <Button fx:id="num2" layoutX="14.0" layoutY="108.0" mnemonicParsing="false" onAction="#insertAction" text="2" />
+    <Button fx:id="num1" layoutX="14.0" layoutY="79.0" mnemonicParsing="false" onAction="#insertAction" text="1" />
+    <Button fx:id="subtract" layoutX="159.0" layoutY="46.0" mnemonicParsing="false" onAction="#insertAction" text="-" />
+    <Button fx:id="openBracket" layoutX="279.0" layoutY="47.0" mnemonicParsing="false" onAction="#insertAction" text=")" />
+    <Button fx:id="add" layoutX="230.0" layoutY="47.0" mnemonicParsing="false" onAction="#insertAction" text="+" />
+    <Button fx:id="num9" layoutX="227.0" layoutY="142.0" mnemonicParsing="false" onAction="#insertAction" text="9" />
+    <Button fx:id="num8" layoutX="87.0" layoutY="136.0" mnemonicParsing="false" onAction="#insertAction" text="8" />
+    <Button fx:id="multiply" layoutX="160.0" layoutY="79.0" mnemonicParsing="false" onAction="#insertAction" text="*" />
+    <Button fx:id="clear" layoutX="272.0" layoutY="104.0" mnemonicParsing="false" onAction="#clearAction" prefHeight="22.0" text="c" />
+    <Button fx:id="equal" layoutX="226.0" layoutY="110.0" mnemonicParsing="false" onAction="#commandAction" text="=" />
+    <Button fx:id="pow" layoutX="228.0" layoutY="79.0" mnemonicParsing="false" onAction="#insertAction" text="^" />
+    <Button fx:id="close" layoutX="272.0" layoutY="79.0" mnemonicParsing="false" onAction="#insertAction" text="(" />
+    <Button fx:id="division" layoutX="159.0" layoutY="110.0" mnemonicParsing="false" onAction="#insertAction" text="/" />
+    <Button fx:id="dot" layoutX="271.0" layoutY="140.0" mnemonicParsing="false" onAction="#insertAction" text="." />
+    <Button id="dot" fx:id="delete" layoutX="15.0" layoutY="165.0" mnemonicParsing="false" onAction="#earseAction" text="&lt;-" />
+  </children>
+</AnchorPane>
